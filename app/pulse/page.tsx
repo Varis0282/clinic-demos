@@ -24,7 +24,7 @@ export default function Home() {
             </h1>
             <p className="mt-5 max-w-lg text-lg text-slate-600">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href={`${BASE}/contact`} className="rounded-lg bg-blue-700 px-7 py-3.5 font-bold text-white shadow-lg shadow-blue-700/25 transition-all hover:bg-blue-800">
+              <Link href={`${BASE}/contact#book`} className="rounded-lg bg-blue-700 px-7 py-3.5 font-bold text-white shadow-lg shadow-blue-700/25 transition-all hover:bg-blue-800">
                 {t.hero.cta1}
               </Link>
               <a href={`tel:${clinic.phoneRaw}`} className="rounded-lg border-2 border-blue-700 px-7 py-3.5 font-bold text-blue-700 transition-colors hover:bg-blue-50">
@@ -127,7 +127,7 @@ export default function Home() {
                     <h3 className="font-bold text-slate-900">{doc.name}</h3>
                     <p className="text-sm font-semibold text-blue-700">{doc.spec}</p>
                     <p className="mt-1 text-xs text-slate-500">{doc.qual} · {doc.exp}</p>
-                    <Link href={`${BASE}/contact`} className="mt-4 block rounded-lg border border-blue-700 py-2 text-center text-sm font-bold text-blue-700 transition-colors hover:bg-blue-700 hover:text-white">
+                    <Link href={`${BASE}/contact#book`} className="mt-4 block rounded-lg border border-blue-700 py-2 text-center text-sm font-bold text-blue-700 transition-colors hover:bg-blue-700 hover:text-white">
                       {t.nav.book}
                     </Link>
                   </div>

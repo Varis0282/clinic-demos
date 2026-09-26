@@ -44,7 +44,7 @@ export default function Home() {
           transition={{ duration: 0.7, delay: 0.4 }}
           className="mt-9 flex flex-wrap justify-center gap-4"
         >
-          <Link href={`${BASE}/contact`} className="rounded-full bg-gradient-to-r from-teal-400 to-indigo-500 px-8 py-4 font-bold text-white shadow-2xl shadow-indigo-500/50 transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-gradient-to-r from-teal-400 to-indigo-500 px-8 py-4 font-bold text-white shadow-2xl shadow-indigo-500/50 transition-transform hover:scale-105">
             {t.hero.cta1} ✨
           </Link>
           <a href={`tel:${clinic.phoneRaw}`} className="rounded-full border border-white/25 px-8 py-4 font-bold text-white backdrop-blur transition-colors hover:bg-white/10">
@@ -152,7 +152,7 @@ export default function Home() {
                       <h3 className="font-bold text-white">{doc.name}</h3>
                       <p className="text-sm font-semibold text-teal-300">{doc.spec}</p>
                       <p className="mt-1 text-xs text-slate-500">{doc.qual} · {doc.exp}</p>
-                      <Link href={`${BASE}/contact`} className="mt-4 block rounded-full border border-teal-400/50 py-2 text-center text-sm font-bold text-teal-300 transition-colors hover:bg-teal-400/10">
+                      <Link href={`${BASE}/contact#book`} className="mt-4 block rounded-full border border-teal-400/50 py-2 text-center text-sm font-bold text-teal-300 transition-colors hover:bg-teal-400/10">
                         {t.nav.book}
                       </Link>
                     </div>

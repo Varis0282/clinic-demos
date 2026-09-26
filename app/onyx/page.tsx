@@ -23,7 +23,7 @@ export default function Home() {
             </h1>
             <p className="mt-6 max-w-md leading-relaxed text-stone-500">{t.hero.sub}</p>
             <div className="mt-10 flex flex-wrap gap-4">
-              <Link href={`${BASE}/contact`} className="bg-[#C9A96A] px-9 py-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0B0E13] transition-opacity hover:opacity-85">
+              <Link href={`${BASE}/contact#book`} className="bg-[#C9A96A] px-9 py-4 text-xs font-bold uppercase tracking-[0.2em] text-[#0B0E13] transition-opacity hover:opacity-85">
                 {t.hero.cta1}
               </Link>
               <a href={`tel:${clinic.phoneRaw}`} className="border border-white/25 px-9 py-4 text-xs font-bold uppercase tracking-[0.2em] text-stone-200 transition-colors hover:border-[#C9A96A] hover:text-[#C9A96A]">
@@ -109,7 +109,7 @@ export default function Home() {
                   <h3 className="font-display text-xl text-stone-100">{doc.name}</h3>
                   <p className="mt-1 text-xs uppercase tracking-[0.2em] text-[#C9A96A]">{doc.spec}</p>
                   <p className="mt-2 text-xs text-stone-600">{doc.qual} · {doc.exp}</p>
-                  <Link href={`${BASE}/contact`} className="mt-4 inline-block text-xs font-semibold uppercase tracking-[0.2em] text-stone-400 underline decoration-[#C9A96A] underline-offset-8 hover:text-[#C9A96A]">
+                  <Link href={`${BASE}/contact#book`} className="mt-4 inline-block text-xs font-semibold uppercase tracking-[0.2em] text-stone-400 underline decoration-[#C9A96A] underline-offset-8 hover:text-[#C9A96A]">
                     {t.nav.book}
                   </Link>
                 </div>

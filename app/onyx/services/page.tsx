@@ -25,7 +25,7 @@ export default function Services() {
                   </div>
                   <p className="text-sm leading-relaxed text-stone-500 md:col-span-5">{item.desc}</p>
                   <div className="md:col-span-2 md:text-right">
-                    <Link href={`${BASE}/contact`} className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-400 underline decoration-[#C9A96A] underline-offset-8 hover:text-[#C9A96A]">
+                    <Link href={`${BASE}/contact#book`} className="text-xs font-semibold uppercase tracking-[0.2em] text-stone-400 underline decoration-[#C9A96A] underline-offset-8 hover:text-[#C9A96A]">
                       {t.nav.book}
                     </Link>
                   </div>

@@ -54,7 +54,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs font-semibold text-[#b3a18c] hover:text-[#C4552D]">← All demos</Link>
           <LangToggle className="rounded-full border-2 border-[#3F6B4F] px-4 py-1 text-sm font-extrabold text-[#3F6B4F] transition-colors hover:bg-[#3F6B4F] hover:text-white" />
-          <Link href={`${BASE}/contact`} className="rounded-full bg-[#C4552D] px-6 py-2.5 text-white shadow-lg shadow-orange-900/20 transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#C4552D] px-6 py-2.5 text-white shadow-lg shadow-orange-900/20 transition-transform hover:scale-105">
             {t.nav.book} 🧡
           </Link>
         </nav>
@@ -71,7 +71,7 @@ export function Nav() {
           ))}
           <div className="mt-4 flex gap-3">
             <LangToggle className="rounded-full border-2 border-[#3F6B4F] px-4 py-2 font-extrabold text-[#3F6B4F]" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-[#C4552D] px-6 py-2.5 text-center font-bold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 rounded-full bg-[#C4552D] px-6 py-2.5 text-center font-bold text-white">
               {t.nav.book} 🧡
             </Link>
           </div>
@@ -177,7 +177,7 @@ export function CTABand() {
           <h2 className="text-3xl font-extrabold md:text-4xl">{t.sections.ctaTitle}</h2>
           <p className="mt-3 text-lg text-orange-100">{t.sections.ctaSub}</p>
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <Link href={`${BASE}/contact`} className="rounded-full bg-white px-8 py-3.5 font-extrabold text-[#C4552D] shadow-xl transition-transform hover:scale-105">
+            <Link href={`${BASE}/contact#book`} className="rounded-full bg-white px-8 py-3.5 font-extrabold text-[#C4552D] shadow-xl transition-transform hover:scale-105">
               {t.hero.cta1} 🧡
             </Link>
             <a href={`tel:${clinic.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-white/70 px-8 py-3.5 font-extrabold text-white transition-colors hover:bg-white/10">

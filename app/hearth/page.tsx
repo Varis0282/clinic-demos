@@ -31,7 +31,7 @@ export default function Home() {
             <Squiggle className="mt-3 w-44 text-[#3F6B4F]" />
             <p className="mt-5 max-w-lg text-lg text-[#8a7961]">{t.hero.sub}</p>
             <div className="mt-8 flex flex-wrap gap-4">
-              <Link href={`${BASE}/contact`} className="rounded-full bg-[#C4552D] px-8 py-4 text-lg font-extrabold text-white shadow-xl shadow-orange-900/20 transition-transform hover:scale-105">
+              <Link href={`${BASE}/contact#book`} className="rounded-full bg-[#C4552D] px-8 py-4 text-lg font-extrabold text-white shadow-xl shadow-orange-900/20 transition-transform hover:scale-105">
                 {t.hero.cta1} 🧡
               </Link>
               <a href={`tel:${clinic.phoneRaw}`} className="flex items-center gap-2 rounded-full border-2 border-[#3F6B4F] px-8 py-4 text-lg font-extrabold text-[#3F6B4F] transition-colors hover:bg-[#3F6B4F] hover:text-white">
@@ -126,7 +126,7 @@ export default function Home() {
                   <h3 className="text-lg font-extrabold text-[#3d3229]">{doc.name}</h3>
                   <p className="font-bold text-[#C4552D]">{doc.spec}</p>
                   <p className="text-xs font-bold text-[#b3a18c]">{doc.exp}</p>
-                  <Link href={`${BASE}/contact`} className="mt-3 inline-block rounded-full bg-[#3F6B4F] px-6 py-2 text-sm font-extrabold text-white transition-transform hover:scale-105">
+                  <Link href={`${BASE}/contact#book`} className="mt-3 inline-block rounded-full bg-[#3F6B4F] px-6 py-2 text-sm font-extrabold text-white transition-transform hover:scale-105">
                     {t.nav.book}
                   </Link>
                 </div>

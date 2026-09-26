@@ -25,7 +25,7 @@ export default function Services() {
                 <div>
                   <h2 className="mb-2 text-xl font-extrabold text-[#3d3229]">{item.title}</h2>
                   <p className="text-[#8a7961]">{item.desc}</p>
-                  <Link href={`${BASE}/contact`} className="mt-3 inline-block font-extrabold text-[#C4552D] underline decoration-wavy underline-offset-4">
+                  <Link href={`${BASE}/contact#book`} className="mt-3 inline-block font-extrabold text-[#C4552D] underline decoration-wavy underline-offset-4">
                     {t.nav.book} →
                   </Link>
                 </div>

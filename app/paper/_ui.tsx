@@ -40,7 +40,7 @@ export function Nav() {
           ))}
           <Link href="/" className="text-xs text-black/40 hover:text-black">← All demos</Link>
           <LangToggle className="border border-black px-3 py-1 text-xs font-bold uppercase tracking-wider transition-colors hover:bg-black hover:text-white" />
-          <Link href={`${BASE}/contact`} className="bg-[#D62828] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-black">
+          <Link href={`${BASE}/contact#book`} className="bg-[#D62828] px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-black">
             {t.nav.book}
           </Link>
         </nav>
@@ -57,7 +57,7 @@ export function Nav() {
           ))}
           <div className="mt-4 flex gap-3">
             <LangToggle className="border border-black px-4 py-2 text-xs font-bold uppercase tracking-wider" />
-            <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="flex-1 bg-[#D62828] px-5 py-2.5 text-center font-bold text-white">
+            <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="flex-1 bg-[#D62828] px-5 py-2.5 text-center font-bold text-white">
               {t.nav.book}
             </Link>
           </div>
@@ -149,7 +149,7 @@ export function CTABand() {
           <p className="mt-3 text-white/50">{t.sections.ctaSub}</p>
         </div>
         <div className="mt-8 flex shrink-0 flex-wrap gap-4 md:mt-0">
-          <Link href={`${BASE}/contact`} className="bg-[#D62828] px-8 py-4 font-bold transition-colors hover:bg-white hover:text-black">
+          <Link href={`${BASE}/contact#book`} className="bg-[#D62828] px-8 py-4 font-bold transition-colors hover:bg-white hover:text-black">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${clinic.phoneRaw}`} className="border border-white/40 px-8 py-4 font-bold transition-colors hover:bg-white hover:text-black">

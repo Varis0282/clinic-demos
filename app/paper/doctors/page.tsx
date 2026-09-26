@@ -28,7 +28,7 @@ export default function Doctors() {
                 <p className="mt-3 text-sm text-black/45">{doc.qual} · {doc.exp}</p>
                 <p className="mt-6 max-w-md leading-relaxed text-black/60">{doc.bio}</p>
                 <p className="mt-4 text-sm font-bold">{d.slots}</p>
-                <Link href={`${BASE}/contact`} className="mt-7 inline-flex items-center gap-1.5 bg-[#111] px-7 py-3.5 font-bold text-white transition-colors hover:bg-[#D62828]">
+                <Link href={`${BASE}/contact#book`} className="mt-7 inline-flex items-center gap-1.5 bg-[#111] px-7 py-3.5 font-bold text-white transition-colors hover:bg-[#D62828]">
                   {t.misc.bookWith} {doc.name} <ArrowUpRight className="h-4 w-4" />
                 </Link>
               </div>

@@ -30,7 +30,7 @@ export default function Doctors() {
                   <p className="mt-3 flex items-center gap-1.5 text-sm font-semibold text-slate-700">
                     <Clock className="h-4 w-4 text-blue-600" /> {d.slots}
                   </p>
-                  <Link href={`${BASE}/contact`} className="mt-5 inline-block rounded-lg bg-blue-700 px-6 py-2.5 font-bold text-white shadow-md shadow-blue-700/25 hover:bg-blue-800">
+                  <Link href={`${BASE}/contact#book`} className="mt-5 inline-block rounded-lg bg-blue-700 px-6 py-2.5 font-bold text-white shadow-md shadow-blue-700/25 hover:bg-blue-800">
                     {t.misc.bookWith} {doc.name} →
                   </Link>
                 </div>

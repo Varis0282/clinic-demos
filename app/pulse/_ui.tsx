@@ -57,7 +57,7 @@ export function Nav() {
             </Link>
           ))}
           <Link
-            href={`${BASE}/contact`}
+            href={`${BASE}/contact#book`}
             className="rounded-lg bg-blue-700 px-5 py-2.5 text-white shadow-md shadow-blue-700/25 transition-all hover:bg-blue-800"
           >
             {t.nav.book}
@@ -74,7 +74,7 @@ export function Nav() {
               {l.label}
             </Link>
           ))}
-          <Link href={`${BASE}/contact`} onClick={() => setOpen(false)} className="mt-3 block rounded-lg bg-blue-700 px-5 py-3 text-center font-semibold text-white">
+          <Link href={`${BASE}/contact#book`} onClick={() => setOpen(false)} className="mt-3 block rounded-lg bg-blue-700 px-5 py-3 text-center font-semibold text-white">
             {t.nav.book}
           </Link>
         </nav>
@@ -172,7 +172,7 @@ export function CTABand() {
         <h2 className="text-3xl font-extrabold md:text-4xl">{t.sections.ctaTitle}</h2>
         <p className="mt-3 text-blue-100">{t.sections.ctaSub}</p>
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link href={`${BASE}/contact`} className="rounded-lg bg-white px-8 py-3.5 font-bold text-blue-700 shadow-lg transition-transform hover:scale-105">
+          <Link href={`${BASE}/contact#book`} className="rounded-lg bg-white px-8 py-3.5 font-bold text-blue-700 shadow-lg transition-transform hover:scale-105">
             {t.hero.cta1}
           </Link>
           <a href={`tel:${clinic.phoneRaw}`} className="rounded-lg border-2 border-white/60 px-8 py-3.5 font-bold text-white transition-colors hover:bg-white/10">

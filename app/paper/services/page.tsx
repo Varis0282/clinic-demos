@@ -21,7 +21,7 @@ export default function Services() {
                 <h2 className="font-display text-3xl font-medium md:col-span-4">{item.title}</h2>
                 <p className="leading-relaxed text-black/55 md:col-span-5">{item.desc}</p>
                 <div className="md:col-span-2 md:text-right">
-                  <Link href={`${BASE}/contact`} className="inline-flex items-center gap-1 font-bold underline decoration-[#D62828] decoration-2 underline-offset-4 hover:text-[#D62828]">
+                  <Link href={`${BASE}/contact#book`} className="inline-flex items-center gap-1 font-bold underline decoration-[#D62828] decoration-2 underline-offset-4 hover:text-[#D62828]">
                     {t.nav.book} <ArrowUpRight className="h-4 w-4" />
                   </Link>
                 </div>

@@ -23,7 +23,7 @@ export default function Services() {
                 <div>
                   <h2 className="mb-2 text-lg font-bold text-slate-900">{item.title}</h2>
                   <p className="text-slate-500">{item.desc}</p>
-                  <Link href={`${BASE}/contact`} className="mt-3 inline-block text-sm font-bold text-blue-700 hover:underline">
+                  <Link href={`${BASE}/contact#book`} className="mt-3 inline-block text-sm font-bold text-blue-700 hover:underline">
                     {t.nav.book} →
                   </Link>
                 </div>

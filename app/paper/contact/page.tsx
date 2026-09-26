@@ -13,7 +13,7 @@ export default function Contact() {
       <section className="mx-auto max-w-6xl px-4 py-10">
         <div className="grid gap-10 lg:grid-cols-5">
           <div className="lg:col-span-3">
-            <BookingForm styles={bookingStyles} />
+            <div id="book" className="scroll-mt-28"><BookingForm styles={bookingStyles} /></div>
           </div>
           <div className="self-start border border-black/15 lg:col-span-2">
             <div className="border-b border-black/15 p-7">
